@@ -1,0 +1,59 @@
+.cover {
+  min-height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
+  background: linear-gradient(135deg, #0f2027, #2c5364, #24243e);
+  color: white;
+  font-family: "Segoe UI", sans-serif;
+}
+
+.cover-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 85%;
+  max-width: 1200px;
+}
+
+.cover-content {
+  max-width: 500px;
+}
+
+.cover-title {
+  font-size: 48px;
+  font-weight: bold;
+}
+
+.cover-subtitle {
+  font-size: 18px;
+  margin-top: 15px;
+  color: #ccc;
+}
+
+.cover-buttons {
+  margin-top: 25px;
+}
+
+.btn-primary {
+  background: #00f5a0;
+  border: none;
+  padding: 12px 24px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.btn-secondary {
+  background: transparent;
+  border: 2px solid white;
+  padding: 12px 24px;
+  color: white;
+  cursor: pointer;
+}
+
+.cover-image img {
+  width: 400px;
+}
