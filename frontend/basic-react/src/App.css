@@ -1,0 +1,17 @@
+/* make full screen page */
+html, body, #root {
+  height: 100%;
+  margin: 0;
+}
+
+/* main layout */
+.App {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* content takes remaining space */
+.App > div {
+  flex: 1;
+}
