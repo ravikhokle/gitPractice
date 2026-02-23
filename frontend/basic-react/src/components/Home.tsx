@@ -1,6 +1,7 @@
 import { Navbar } from "./Navbar";  
 import Gallery from "./Gallery";
 import "./Gallery.css";
+import { Footer } from "./Footer";  
 
 
 function Home(){
@@ -8,6 +9,7 @@ function Home(){
         <div>
             <Navbar />
             <Gallery />
+            <Footer />
         </div>
     );
 }
