@@ -1,16 +1,11 @@
-import {Home} from "./components/Home";
-
-import './App.css'
+import Cover from "./components/Cover";
 
 function App() {
-  
-
   return (
-    <div className="App">
-      <Home />
-    </div>
-      
-  )
+    <>
+      <Cover />
+    </>
+  );
 }
 
-export default App
+export default App;
