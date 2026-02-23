@@ -1,9 +1,10 @@
-import Cover from "./components/Cover";
+
+import { Home } from "./components/Home";
 
 function App() {
   return (
     <>
-      <Cover />
+      <Home />
     </>
   );
 }
